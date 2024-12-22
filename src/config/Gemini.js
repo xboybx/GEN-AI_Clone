@@ -14,17 +14,17 @@ const model = genAI.getGenerativeModel({
 
 const generationConfig = {
 
-    temperature: 0.5, // Lower temperature for faster response
-    topP: 0.6, // Adjust topP for faster response
-    topK: 15, // Adjust topK for faster response
-    maxOutputTokens: 512, // Reduce maxOutputTokens for faster response
-    responseMimeType: "text/plain",
-    // .............................................
-    // temperature: 1,
-    // topP: 0.95,
-    // topK: 40,
-    // maxOutputTokens: 8192,
+    // temperature: 0.5, // Lower temperature for faster response
+    // topP: 0.6, // Adjust topP for faster response
+    // topK: 15, // Adjust topK for faster response
+    // maxOutputTokens: 512, // Reduce maxOutputTokens for faster response
     // responseMimeType: "text/plain",
+    // .............................................
+    temperature: 1,
+    topP: 0.95,
+    topK: 40,
+    maxOutputTokens: 8192,
+    responseMimeType: "text/plain",
 };
 
 async function run(prompt) {
