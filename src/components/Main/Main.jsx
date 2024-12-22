@@ -1,11 +1,10 @@
 // import React, { useContext, useState } from 'react'
-// import { assets } from '../../assets/assets'
 // import { Context } from '../../context/context'
 
 import React, { useState, useContext } from 'react';
 import './Main.css'
-import { Context } from '../context/context';
-import assets from '../assets';
+import { assets } from '../../assets/assets'
+import { Context } from "../../context/Context";
 
 const Main = () => {
 
