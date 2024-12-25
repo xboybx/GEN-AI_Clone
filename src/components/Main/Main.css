@@ -3,7 +3,7 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* Prevent scrolling */
 }
 
@@ -210,8 +210,25 @@ html {
     font-size: 17px;
     font-weight: 300;
     line-height: 1.5;
-<<<<<<< HEAD
 }
-=======
+
+@media (max-width:770px) {
+    .main-bottom {
+        flex: none;
+        color: purple
+    }
+
+    .main-bottom img {
+        width: 20px;
+    }
+
+    .chatbox {
+        padding: 5px 10px;
+        ;
+    }
+
+    .chatbox div {
+        gap: 5px
+    }
+
 }
->>>>>>> ee1101f90b8e3470bd618740b69c2a6065258bc8

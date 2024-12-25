@@ -88,7 +88,7 @@ const Main = () => {
                         // Response after clickig Enterkey on keyboard
                         />
                         <div>
-                            <img onClick={() => onSent(prompt)} src={assets.send_icon} alt="send icon" />
+                            {input ? <img onClick={() => onSent(prompt)} src={assets.send_icon} alt="send icon" /> : null}
                         </div>
                     </div>
                     <p className="bottom-info">

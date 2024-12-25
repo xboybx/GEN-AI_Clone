@@ -1,4 +1,4 @@
-// Api key
+//Api key
 
 import {
     GoogleGenerativeAI,
@@ -28,6 +28,7 @@ const generationConfig = {
 };
 
 async function run(prompt) {
+
     const chatSession = model.startChat({
         generationConfig,
         history: [
@@ -38,6 +39,7 @@ async function run(prompt) {
     console.log(result.response.text());
 
     return result.response.text();
+
 }
 
 export default run; 
