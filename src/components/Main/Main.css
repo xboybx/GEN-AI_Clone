@@ -212,7 +212,7 @@ html {
     line-height: 1.5;
 }
 
-@media (max-width:770px) {
+@media (max-width:600px) {
     .main-bottom {
         flex: none;
         color: purple

@@ -12,7 +12,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/GEN-AI_Clone/', // Source path
+  // base: '/GEN-AI_Clone/', // Source path
   build: {
     outDir: 'dist'
   }
