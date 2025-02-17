@@ -1,4 +1,5 @@
 //Api key
+import dotenv from "dotenv";
 
 import {
     GoogleGenerativeAI,
@@ -6,7 +7,7 @@ import {
     HarmBlockThreshold,
 } from "@google/generative-ai";
 
-const apiKey = process.env.VITE_GEMINI_API_KEY;
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(apiKey);
 const model = genAI.getGenerativeModel({
     model: "gemini-2.0-flash-exp",
