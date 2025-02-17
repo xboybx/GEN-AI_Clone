@@ -1,8 +1,16 @@
-# React + Vite
+# Gen AI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Gen AI Clone is a React application that leverages the Google Generative AI API to generate responses based on user prompts. This project is designed to provide a seamless user experience with real-time AI-generated responses.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Real-time AI Responses:** Users can input prompts and receive generated responses instantly.
+- **Highlighted Responses:** The application highlights headings in the responses for better readability.
+- **Responsive Design:** The application is designed to be responsive and works well on various screen sizes.
+- **Loading Indicator:** A loading indicator is displayed while the AI generates a response.
+- **Reset Chat:** Users can reset the chat to start a new conversation.
+
+## Live Demo
+
+Check out the live demo of the application [here](https://gen-ai-clone.netlify.app/).
+
